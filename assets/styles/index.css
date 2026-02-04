@@ -1,0 +1,156 @@
+:root{
+    --primary-color:#4C243B;
+    --secondary-color:#AC7B84;
+    --auxilliary-color:#fff;
+    --padding-horizantal:100px;
+    --padding-vertical: 10px;
+    --card-background-color:#FFEFF2;
+}
+
+body, h1, h3, p{
+    margin: 0%;
+    font-family:"Poppins", sans-serif;
+  
+}
+nav{
+   background-color: var(--primary-color); 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-left:var(--padding-horizantal);
+   padding-right:var(--padding-horizantal);
+   padding-top:var(--padding-vertical);
+   padding-bottom:var(--padding-vertical);
+   position: sticky;
+}
+nav>div>a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 4px;
+}
+nav>div>h1{
+    color: #fff;
+    margin: 4px;
+}
+.logo{
+    display: flex;
+}
+#homesection{
+display: flex;
+height: 80vh;
+align-items: center;
+padding-left: var(--padding-horizantal);
+padding-right: var(--padding-horizantal);
+}
+#homesection>img{ 
+    aspect-ratio: 1/1; /*enadles uniformity as it scales*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#homesection>div{
+    padding-left: 120px;
+    width: 50vw;
+}
+#homesection>div>h1{
+    font-size: 64px;
+    color: var(--primary-color);
+}
+#homesection>div>p{
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 20px;
+    font-weight: 300;
+    color: var(--secondary-color);
+}
+#homesection>div>button{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding-right: 24PX;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition: 1s;
+}
+#homesection>div>button:hover{
+background-color: #AC7B84;
+color: var(--primary-color);
+cursor: pointer;
+}
+#projectsection>div>h1{
+    color: var(--primary-color);
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+#projectsection>div>p{
+    color: var(--secondary-color);
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+}
+#projectsection>div>.card{
+background-color: var(--card-background-color);
+width: 311PX;
+height: 355PX;
+border-radius: 30PX;
+margin: 12px;
+padding: 16px;
+}
+#projectsection>div>.card{
+    background-color: var(--card-background-color);
+    width: 311px;
+    height: 344px;
+    border-radius: 30px;
+    margin: 12px;
+    padding: 16px;
+}
+#projectsection>div>.card>img{
+    width: 280px;
+    height: 150px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+#projectsection>div>.card>h3{
+    font-size: 20px;
+    color: var(--primary-color);
+    margin-top: 16px;
+}
+#projectsection>div>.card>p{
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin-top: 12px;
+}
+#projectsection>div>.card>button{
+      background-color: var(--primary-color);
+    color: #fff;
+    padding-right: 24PX;
+    width: 80%;
+    text-align: center;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition: 1s;
+}
+#projectsection>div>.card>button:hover{
+background-color: #AC7B84;
+color: var(--primary-color);
+cursor: pointer;
+}
+#projectsection>.projects{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: var(--padding-horizantal);
+    padding-right: var(--padding-horizantal);
+    padding: 20px;
+}
+
+
+
+
+
