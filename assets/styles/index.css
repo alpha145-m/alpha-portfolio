@@ -149,21 +149,21 @@ cursor: pointer;
     padding-right: var(--padding-horizantal);
     padding: 20px;
 }
-#contractsection{
+#contactsection{
     padding-left: var(--padding-horizantal);
     padding-right: var(--padding-horizantal);
     height: 60vh;
 }
-#contactsection>form>{
+#contactsection>form{
     padding: 24px;
     width: 60vh;
     background-color: var(--secondary-color);
     border-radius: 30px;
 }
-#contactsection>form>div>{
+#contactsection>form>div{
     margin-top: 16px;
 }
-#contactsection>form>div>{}
+
     
 
 
