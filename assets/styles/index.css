@@ -156,20 +156,100 @@ cursor: pointer;
 }
 #contactsection>form{
     padding: 24px;
-    width: 60vh;
+    width: 80%;
     background-color: var(--secondary-color);
     border-radius: 30px;
 }
 #contactsection>form>div{
     margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 #contactsection>form>h2{
-    font-size: medium;
-    color: var(--card-background-color);
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    margin-top: 30px;
+ margin-bottom: 30px;
+ color: var(--primary-color);
 }
-    
-    
+#contactsection>div>div{
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+#contactsection>form>.usermessage{
+    margin-top: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
 
+#contactsection>form>.userNameEmail, .userAgeBirthday{
+    display: flex; 
+}
+#contactsection>form>.userNameEmail,.userAgeBirthday>div>label{
+    font-weight: 500;
+    color: var(--primary-color);
+}    
+#contactsection>form>.userNameEmail>div>input{
+      all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color: white;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    padding-right: 30px;
+    padding-top: 4px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: gray;
+}
+#contactsection>form>.userAgeBirthday>div>input{
+      all: unset;
+    border-radius: 12px;
+    width: 25vw;
+    background-color: white;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    padding-right: 16px;
+    padding-top: 4px;
+    height: 30px;
+    margin-top: 8px;
+    font-size: 12px;
+    color: gray;
+}
+#contactsection>form>div>label{
+    font-weight: 500;
+    color: var(--primary-color);
+}
 
+    #contactsection>form>div>textarea{
+    all: unset;
+    background-color: white;
+    width: 25vw;
+    border-radius: 12px;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    padding-right: 16px;
+    padding-top: 4px;
+    font-size: 12px;    
+    color: gray;
+    }
+  #contactsection>form>button{
+    background-color: blue;
+    color: #fff;
+    padding-right: 24PX;
+    padding-left: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 50px;
+    transition: 1s;
+    margin-top: 16px;
+}
+#contactsection>form>button:hover{
+    background-color: #ca9191;
+    color: var(--primary-color);
+    cursor: pointer;
 
+}
