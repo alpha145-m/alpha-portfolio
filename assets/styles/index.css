@@ -163,7 +163,12 @@ cursor: pointer;
 #contactsection>form>div{
     margin-top: 16px;
 }
-
+#contactsection>form>h2{
+    font-size: medium;
+    color: var(--card-background-color);
+    text-align: center;
+}
+    
     
 
 
